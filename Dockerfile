@@ -1,3 +1,3 @@
 FROM jupyter/datascience-notebook
 
-RUN conda install --yes docopt:v0.6.2
+RUN mamba install --yes docopt
