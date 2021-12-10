@@ -1,3 +1,3 @@
 FROM jupyter/datascience-notebook
 
-RUN conda install docopt -y
+RUN conda install -c anaconda docopt -y
