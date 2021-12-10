@@ -1,3 +1,3 @@
 FROM jupyter/datascience-notebook
 
-RUN docopt
+RUN conda install docopt:0.6.0
